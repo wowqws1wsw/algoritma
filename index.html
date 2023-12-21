@@ -88,6 +88,52 @@ if (tinggiAir <= 500.0) {
     console.log("Status: SIAGA 1");
 }
 
+
+  //no 7
+  let nilai = prompt("isi nilai mu");
+
+  if (nilai <= 100 && nilai >=90) {
+    console.log("selamat anda lulus")
+  } else if (nilai >= 80 && nilai < 90) {
+    jalur = prompt("mau pilih jalur mana")
+    if (jalur == ("raport")){
+      console.log("anda lulus nilai lewat jalur raport")
+    } else if (jalur == ("perstasi")){
+      console.log("anda lulus nilai lewat jalur prestasi ")
+    }
+  } else {
+    console.log("tes mandiri aa")
+    hasiltes = prompt("masukan hasil tes")
+    if (hasiltes >=79 && hasiltes <= 100){
+     console.log("antum lulus")
+    } else {
+      console.log("walduh gagal")
+    }
+  }
+
+  // soal bu duma
+
+      let score =0;
+
+      let tesm  =80;
+      let jalur =raport;
+
+      if (nilai >= 90 && nilai <= 100){
+          console.log("nilai sempurna")
+      } else if (nilai >=75 && nilai < 90){
+        if (jalur == ("raport"))
+        console.log ("anda lulus lewat raport")
+      } else if (jalur == ("prestasi")) {
+        console.log("anda lulus lewat prestasi")
+      } else {
+        if (tesm >= 80){
+          console.log("lolos tes masuk")
+        } else{
+          console.log("tidak lolos tes masuk")
+        }
+      }
+      
+
        //fin
     </script>
 </body>
