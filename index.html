@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // no2
+
+        let bil1 =100;
+    let bil2 =200;
+    let bil3 =300;
+    if(bil1>bil2 && bil1>bil3) {
+      console.log(bil1)
+    } else if (bil2>bil1 && bil2>bil3) {
+      console.log(bil2)
+    } else if (bil3>bil1 && bil3>bil2) {
+      console.log(bil3)
+    }
+
+       // no 3
+       let bil =1;
+
+if (bil %2==1){
+ console.log("ganjil")
+} else if (bil %2==0){
+    console.log("genap")
+}
+
+let bill =1 
+if (bil <0) {
+    console.log("bilangan negatif")
+} else if (bil >0) {
+    console.log("bilangan positif")
+}
+
+        //no 4
+        let harga1 = Number(prompt("Masukkan harga barang 1: "));
+let harga2 = Number(prompt("Masukkan harga barang 2: "));
+let harga3 = Number(prompt("Masukkan harga barang 3: "));
+
+let totalHarga = harga1 + harga2 + harga3;
+
+if (totalHarga > 100000) {
+  totalHarga *= 0.9; // diskon 10%
+}
+
+console.log("Total harga yang harus dibayar: " + totalHarga);
+
+      // no 5
+      let jamLembur = Number(prompt("Masukkan jumlah jam lembur: "));
+let gajiLembur;
+
+if (jamLembur < 6) {
+  gajiLembur = 100000;
+} else if (jamLembur === 6) {
+  gajiLembur = 200000;
+} else {
+  gajiLembur = 300000;
+}
+
+console.log("Gaji lembur yang harus dibayar: Rp. " + gajiLembur);
+
+     //no 6
+     var tinggiAir = Number(prompt("Masukkan tinggi air (dalam meter):"));
+
+if (tinggiAir <= 500.0) {
+    console.log("Status: AMAN");
+} else if (tinggiAir > 500.0 && tinggiAir <= 600.0) {
+    console.log("Status: WASPADA");
+} else if (tinggiAir > 600.0 && tinggiAir <= 650.0) {
+    console.log("Status: SIAGA 2");
+} else {
+    console.log("Status: SIAGA 1");
+}
+
+       //fin
+    </script>
+</body>
+</html>
