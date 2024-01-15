@@ -21,7 +21,48 @@ else if (tahun % 400 >= 1) {
 else {
     console.log("Tahun " + tahun + " tahun kabisat");
 }
-}
+} 
+
+
+let thn =1600; 
+
+    while(thn<=2404){
+    thn+=4;
+
+    
+    if (thn % 4 >= 1) {
+               console.log("Tahun " + thn + " bukan tahun kabisat");
+           }
+            else if (thn % 100 >= 1) {
+                console.log("Tahun " + thn + " tahun kabisat");
+           }
+            else if (thn % 400 >= 1) {
+                console.log("Tahun " + thn + " bukan tahun kabisat");
+          }
+          else {
+                 console.log("Tahun " + thn + " tahun kabisat");
+           }
+      }
+
+    let year =1600;
+
+do{
+    if (year % 4 >= 1) {
+        console.log("Tahun " + year + " bukan tahun kabisat");
+    }
+    else if (year % 100 >= 1) {
+        console.log("Tahun " + year + " tahun kabisat");
+    }
+    else if (year % 400 >= 1) {
+        console.log("Tahun " + year + " bukan tahun kabisat");
+    }
+    else {
+        console.log("Tahun " + year + " tahun kabisat");
+    }
+
+year += 4;
+}while(year<=2404);
+
     </script>
 </body>
 </html>
