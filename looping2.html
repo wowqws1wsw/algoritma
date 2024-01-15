@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        for (let tahun = 1600; tahun <= 2404; tahun += 4) {
+
+if (tahun % 4 >= 1) {
+    console.log("Tahun " + tahun + " bukan tahun kabisat");
+}
+else if (tahun % 100 >= 1) {
+    console.log("Tahun " + tahun + " tahun kabisat");
+}
+else if (tahun % 400 >= 1) {
+    console.log("Tahun " + tahun + " bukan tahun kabisat");
+}
+else {
+    console.log("Tahun " + tahun + " tahun kabisat");
+}
+}
+    </script>
+</body>
+</html>
