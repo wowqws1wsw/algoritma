@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //looping
+        for (let  z= 0; z < 10; z++) {
+          console.log('data ke -',z)
+        }
+
+        //while
+        let x = 1
+        //pake while
+        while(x <=10){
+            console.log('data x ke -',x)
+            x++
+        }
+
+        //do while
+        let y=10
+        //pake do
+        do {
+            console.log('data y ke -',y)
+            y++
+        } while (y <=5)
+
+        //while 2
+        let z =5
+        while(z <=1){
+            console.log("data tampilkan ke-",z)
+            z++
+        }
+
+        //while genap
+        let o = 0
+        while(o <=10){
+            console.log('data 0 ke -',o)
+            o+=2
+        }
+
+        //while ganjil
+        let p = 3
+        while(p <= 11){
+            console.log('data p ke -',p)
+            p+=2
+        }
+
+        // trying to make sense
+       function hitungfaktorial(n){
+        let hasilfaktorial = 1;
+           
+           for(let i = 1; i <= n; i++){
+            hasilfaktorial *= i;
+        }
+        return hasilfaktorial;
+       }
+      const n = prompt("masukan angka faktorial")
+      const hasilfaktorial = hitungfaktorial(n);
+
+      console.log(`faktorial dari ${n} adalah ${hasilfaktorial}`);
+
+    </script>
+</body>
+</html>
