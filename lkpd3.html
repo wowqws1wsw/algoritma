@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 1. 
+// var beratBuahGram = 1200;   
+
+
+// var hargaPerKg = 500;
+
+
+// var totalHargaSebelumDiskon = (beratBuahGram / 1000) * hargaPerKg;
+
+
+// var diskon = 0.05 * totalHargaSebelumDiskon;
+
+// var totalHargaSetelahDiskon = totalHargaSebelumDiskon - diskon;
+
+// console.log("Berat buah yang dibeli: " + beratBuahGram + " gram");
+// console.log("Harga per kg: " + hargaPerKg + " rupiah");
+// console.log("Total harga sebelum diskon: " + totalHargaSebelumDiskon + " rupiah");
+// console.log("Diskon: " + diskon + " rupiah");
+// console.log("Total harga setelah diskon: " + totalHargaSetelahDiskon + " rupiah");
+// end
+
+ // 2. 
+var bilangan = parseInt(prompt("Masukkan bilangan bulat:"));
+
+var satuan = bilangan % 10;
+var puluhan = Math.floor((bilangan % 100) / 10);
+var ratusan = Math.floor(bilangan / 100);
+
+console.log("Bilangan: " + bilangan);
+console.log("Satuan: " + satuan);
+console.log("Puluhan: " + puluhan);
+console.log("Ratusan: " + ratusan);
+// // end
+
+ // 3. 
+// var suhuFahrenheit = parseFloat(prompt("Masukkan suhu dalam derajat Fahrenheit:"));
+
+// var suhuCelsius = (suhuFahrenheit - 32) * (5 / 9);
+
+// var kategoriCuaca;
+
+// if (suhuCelsius > 30) {
+//     kategoriCuaca = "Panas";
+// } else if (suhuCelsius < 25) {
+//     kategoriCuaca = "Dingin";
+// } else {
+//     kategoriCuaca = "Normal";
+// }
+
+// console.log("Suhu Fahrenheit: " + suhuFahrenheit + "°F");
+// console.log("Suhu Celsius: " + suhuCelsius.toFixed(2) + "°C");
+// console.log("Kategori Cuaca: " + kategoriCuaca);
+//end
+
+    </script>
+</body>
+</html>
