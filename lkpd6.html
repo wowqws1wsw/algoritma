@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // no 1
+        // Fungsi untuk menghitung rata-rata nilai siswa
+// function hitungRataRata(nilai) {
+//   return nilai.reduce((a, b) => a + b, 0) / nilai.length;
+// }
+
+// // Fungsi untuk mengecek apakah siswa hadir 100%
+// function cekKehadiran(kehadiran) {
+//   return kehadiran === 100;
+// }
+
+// // Fungsi untuk menentukan juara kelas
+// function cariJuaraKelas(namaSiswa, nilaiMTK, nilaiINDO, nilaiINGG, nilaiDPK, nilaiAgama, kehadiran) {
+//   const nilaiTotal = nilaiMTK + nilaiINDO + nilaiINGG + nilaiDPK + nilaiAgama;
+
+//   // Cek apakah siswa memenuhi syarat
+//   if (hitungRataRata([nilaiMTK, nilaiINDO, nilaiINGG, nilaiDPK, nilaiAgama]) >= 95 &&
+//       nilaiTotal >= 475 &&
+//       cekKehadiran(kehadiran)) {
+//     console.log(`${namaSiswa} adalah juara kelas.`);
+//   } else {
+//     console.log(`${namaSiswa} tidak memenuhi syarat untuk menjadi juara kelas.`);
+//   }
+// }
+
+// // Input data siswa
+// const jumlahSiswa = 15;
+
+// for (let i = 1; i <= jumlahSiswa; i++) {
+//   const namaSiswa = prompt(`Masukkan nama siswa ke-${i}:`);
+//   const nilaiMTK = parseInt(prompt(`Masukkan nilai MTK siswa ${namaSiswa}:`));
+//   const nilaiINDO = parseInt(prompt(`Masukkan nilai INDONESIA siswa ${namaSiswa}:`));
+//   const nilaiINGG = parseInt(prompt(`Masukkan nilai INGGRIS siswa ${namaSiswa}:`));
+//   const nilaiDPK = parseInt(prompt(`Masukkan nilai DPK siswa ${namaSiswa}:`));
+//   const nilaiAgama = parseInt(prompt(`Masukkan nilai AGAMA siswa ${namaSiswa}:`));
+//   const kehadiran = parseInt(prompt(`Masukkan presentase kehadiran siswa ${namaSiswa}:`));
+
+//   // Panggil fungsi untuk menentukan juara kelas
+//   cariJuaraKelas(namaSiswa, nilaiMTK, nilaiINDO, nilaiINGG, nilaiDPK, nilaiAgama, kehadiran);
+// }
+
+ //no 2
+ // Fungsi untuk menghitung keuntungan per kelas
+// function hitungKeuntunganPerKelas(jumlahTiketTerjual, persentaseKeuntungan) {
+//   return (jumlahTiketTerjual * persentaseKeuntungan) / 100;
+// }
+
+// // Inisialisasi jumlah tiket per kelas
+// const jumlahTiketVIP = 50;
+// const jumlahTiketEksekutif = 50;
+// const jumlahTiketEkonomi = 50;
+
+// // Input jumlah tiket terjual per kelas
+// const tiketTerjualVIP = parseInt(prompt("Jumlah tiket VIP terjual:"));
+// const tiketTerjualEksekutif = parseInt(prompt("Jumlah tiket Eksekutif terjual:"));
+// const tiketTerjualEkonomi = parseInt(prompt("Jumlah tiket Ekonomi terjual:"));
+
+// // Menghitung keuntungan per kelas sesuai dengan ketentuan
+// const keuntunganVIP = tiketTerjualVIP >= 35 ? hitungKeuntunganPerKelas(tiketTerjualVIP, 25) :
+//                       tiketTerjualVIP >= 20 ? hitungKeuntunganPerKelas(tiketTerjualVIP, 15) :
+//                                               hitungKeuntunganPerKelas(tiketTerjualVIP, 5);
+
+// const keuntunganEksekutif = tiketTerjualEksekutif >= 40 ? hitungKeuntunganPerKelas(tiketTerjualEksekutif, 20) :
+//                            tiketTerjualEksekutif >= 20 ? hitungKeuntunganPerKelas(tiketTerjualEksekutif, 10) :
+//                                                       hitungKeuntunganPerKelas(tiketTerjualEksekutif, 2);
+
+// const keuntunganEkonomi = hitungKeuntunganPerKelas(tiketTerjualEkonomi, 7);
+
+// // Menghitung total keuntungan
+// const totalKeuntungan = keuntunganVIP + keuntunganEksekutif + keuntunganEkonomi;
+
+// // Menghitung jumlah tiket keseluruhan
+// const totalTiket = jumlahTiketVIP + jumlahTiketEksekutif + jumlahTiketEkonomi;
+
+// // Menampilkan output
+// console.log(`Keuntungan per kelas:
+// - VIP: ${keuntunganVIP} IDR
+// - Eksekutif: ${keuntunganEksekutif} IDR
+// - Ekonomi: ${keuntunganEkonomi} IDR`);
+
+// console.log(`Keuntungan keseluruhan: ${totalKeuntungan} IDR`);
+// console.log(`Jumlah tiket per kelas:
+// - VIP: ${tiketTerjualVIP}/${jumlahTiketVIP}
+// - Eksekutif: ${tiketTerjualEksekutif}/${jumlahTiketEksekutif}
+// - Ekonomi: ${tiketTerjualEkonomi}/${jumlahTiketEkonomi}`);
+
+// console.log(`Total tiket keseluruhan: ${totalTiket}`);
+
+
+    </script>
+</body>
+</html>
